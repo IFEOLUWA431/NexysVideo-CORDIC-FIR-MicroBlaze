@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sources_1/new/wave_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'wave_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sources_1/new/sine_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sine_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_wave_select'

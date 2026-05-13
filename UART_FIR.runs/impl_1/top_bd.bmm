@@ -1,0 +1,46 @@
+// BMM LOC annotation file.
+//
+// SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+// Vivado v2025.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'u_subsystem_sub_system_i_microblaze_riscv_0', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP u_subsystem_sub_system_i_microblaze_riscv_0 RISCV 100 u_subsystem/sub_system_i/microblaze_riscv_0
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'u_subsystem_sub_system_i_microblaze_riscv_0' address space 'u_subsystem_sub_system_i_microblaze_riscv_0_local_memory_dlmb_bram_if_cntlr' 0X0000000000000000:0X0000000000003FFF (16 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE u_subsystem_sub_system_i_microblaze_riscv_0_local_memory_dlmb_bram_if_cntlr RAMB32 [0X0000000000000000:0X0000000000003FFF] u_subsystem/sub_system_i/microblaze_riscv_0_local_memory/dlmb_bram_if_cntlr
+        BUS_BLOCK
+            u_subsystem/sub_system_i/microblaze_riscv_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [31:24] [0:4095] PLACED = X4Y26;
+            u_subsystem/sub_system_i/microblaze_riscv_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [23:16] [0:4095] PLACED = X4Y27;
+            u_subsystem/sub_system_i/microblaze_riscv_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [15:8] [0:4095] PLACED = X4Y25;
+            u_subsystem/sub_system_i/microblaze_riscv_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [7:0] [0:4095] PLACED = X4Y24;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'u_subsystem_sub_system_i_microblaze_riscv_0' address space 'u_subsystem_sub_system_i_axi_bram_ctrl_0' 0X00000000C0000000:0X00000000C0001FFF (8 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE u_subsystem_sub_system_i_axi_bram_ctrl_0 RAMB32 [0X00000000C0000000:0X00000000C0001FFF] u_subsystem/sub_system_i/axi_bram_ctrl_0
+        BUS_BLOCK
+            u_subsystem/sub_system_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [31:16] [0:2047] PLACED = X3Y27;
+            u_subsystem/sub_system_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [15:0] [0:2047] PLACED = X3Y26;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov  3 09:37:47 2025
+# Process ID         : 10476
+# Current directory  : C:/FPGA/UART/UART.runs/sub_system_mdm_1_3_synth_1
+# Command line       : vivado.exe -log sub_system_mdm_1_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sub_system_mdm_1_3.tcl
+# Log file           : C:/FPGA/UART/UART.runs/sub_system_mdm_1_3_synth_1/sub_system_mdm_1_3.vds
+# Journal file       : C:/FPGA/UART/UART.runs/sub_system_mdm_1_3_synth_1\vivado.jou
+# Running On         : IC-5CG4104D9F
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1345U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 68342 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 72637 MB
+# Available Virtual  : 39302 MB
+#-----------------------------------------------------------
+source sub_system_mdm_1_3.tcl -notrace

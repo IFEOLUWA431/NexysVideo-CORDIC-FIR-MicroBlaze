@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../UART_FIR.srcs/sources_1/new/fir_pkg.vhd" \
+"../../../../UART_FIR.srcs/sources_1/new/wave_gen.vhd" \
+"../../../../UART_FIR.srcs/sources_1/new/sine_gen.vhd" \
+"../../../../UART_FIR.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,69 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.876956",
+   "Default View_TopLeft":"-149,442",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 9 -x 3310 -y 210 -defaultsOSRD
+preplace port BRAM_PORTB -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port ctrl_word -pg 1 -lvl 9 -x 3310 -y 70 -defaultsOSRD
+preplace port wave_divider -pg 1 -lvl 9 -x 3310 -y 90 -defaultsOSRD
+preplace port Test_Point -pg 1 -lvl 9 -x 3310 -y 350 -defaultsOSRD
+preplace port Test_Point_2 -pg 1 -lvl 9 -x 3310 -y 370 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 1090 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace port port-id_clk_out1 -pg 1 -lvl 9 -x 3310 -y 920 -defaultsOSRD
+preplace portBus peripheral_reset_0 -pg 1 -lvl 9 -x 3310 -y 900 -defaultsOSRD
+preplace inst microblaze_riscv_0 -pg 1 -lvl 3 -x 1320 -y 730 -defaultsOSRD
+preplace inst microblaze_riscv_0_local_memory -pg 1 -lvl 4 -x 1770 -y 740 -defaultsOSRD
+preplace inst microblaze_riscv_0_axi_periph -pg 1 -lvl 4 -x 1770 -y 220 -defaultsOSRD
+preplace inst microblaze_riscv_0_axi_intc -pg 1 -lvl 2 -x 760 -y 540 -defaultsOSRD
+preplace inst microblaze_riscv_0_xlconcat -pg 1 -lvl 1 -x 450 -y 550 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 760 -y 730 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 7 -x 2620 -y 1080 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -x 450 -y 900 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 8 -x 2870 -y 220 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 2100 -y 510 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -x 2400 -y 410 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 8 -x 2870 -y 80 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 8 -x 2870 -y 360 -defaultsOSRD
+preplace netloc axi_gpio_1_ip2intc_irpt 1 0 9 260 400 NJ 400 NJ 400 1620J 430 NJ 430 2230J 490 NJ 490 NJ 490 3000
+preplace netloc axi_uartlite_0_interrupt 1 0 9 280 430 NJ 430 NJ 430 1580J 440 1930J 400 2240J 500 NJ 500 NJ 500 3010
+preplace netloc clk_wiz_1_locked 1 0 8 270 1010 NJ 1010 NJ 1010 NJ 1010 NJ 1010 NJ 1010 NJ 1010 2720
+preplace netloc mdm_1_debug_sys_rst 1 0 3 280 1000 NJ 1000 880
+preplace netloc microblaze_riscv_0_Clk 1 0 9 280 650 640 650 1070 640 1610 510 1940 590 NJ 590 NJ 590 2730 920 NJ
+preplace netloc microblaze_riscv_0_intr 1 1 1 NJ 550
+preplace netloc reset_1 1 0 7 260 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 NJ
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 1 3 N 880 NJ 880 1610J
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 1 2 630 800 890J
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 7 620 410 NJ 410 1630 450 1970 410 2260J 480 NJ 480 2740
+preplace netloc rst_clk_wiz_1_100M_peripheral_reset 1 1 8 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ 900 NJ
+preplace netloc sys_clock_1 1 0 7 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ 1090 NJ
+preplace netloc BRAM_PORTB_0_1 1 0 6 NJ 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 2250 400n
+preplace netloc axi_gpio_0_GPIO 1 8 1 NJ 70
+preplace netloc axi_gpio_0_GPIO2 1 8 1 NJ 90
+preplace netloc axi_gpio_1_GPIO 1 8 1 3020J 340n
+preplace netloc axi_gpio_1_GPIO2 1 8 1 3020J 360n
+preplace netloc axi_uartlite_0_UART 1 8 1 NJ 210
+preplace netloc microblaze_riscv_0_axi_dp 1 3 1 1570 80n
+preplace netloc microblaze_riscv_0_axi_periph_M01_AXI 1 4 4 N 200 NJ 200 NJ 200 NJ
+preplace netloc microblaze_riscv_0_axi_periph_M02_AXI 1 4 1 1920 220n
+preplace netloc microblaze_riscv_0_axi_periph_M03_AXI 1 4 4 1910J 190 NJ 190 NJ 190 2720
+preplace netloc microblaze_riscv_0_axi_periph_M04_AXI 1 4 4 NJ 260 NJ 260 NJ 260 2720
+preplace netloc microblaze_riscv_0_debug 1 2 1 N 720
+preplace netloc microblaze_riscv_0_dlmb_1 1 3 1 N 710
+preplace netloc microblaze_riscv_0_ilmb_1 1 3 1 N 730
+preplace netloc microblaze_riscv_0_intc_axi 1 1 4 640 20 NJ 20 NJ 20 1910
+preplace netloc microblaze_riscv_0_interrupt 1 2 1 880 540n
+levelinfo -pg 1 0 450 760 1320 1770 2100 2400 2620 2870 3310
+pagesize -pg 1 -db -bbox -sgen -150 -140 3530 1150
+"
+}
+{
+   "da_axi4_cnt":"11",
+   "da_board_cnt":"14",
+   "da_bram_cntlr_cnt":"3",
+   "da_microblaze_riscv_cnt":"6"
+}

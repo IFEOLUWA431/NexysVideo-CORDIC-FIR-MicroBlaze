@@ -1,0 +1,18 @@
+
+*** Running vivado
+    with args -log sub_system_microblaze_riscv_0_axi_periph_imp_xbar_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sub_system_microblaze_riscv_0_axi_periph_imp_xbar_3.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Jan  2 13:19:25 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source sub_system_microblaze_riscv_0_axi_periph_imp_xbar_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 491.312 ; gain = 211.590
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP sub_system_microblaze_riscv_0_axi_periph_imp_xbar_3, cache-ID = 641955b042a5db5c.
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  2 13:19:58 2026...

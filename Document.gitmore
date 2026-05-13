@@ -1,0 +1,22 @@
+# Vivado generated
+*.jou
+*.log
+*.str
+*.xpr
+
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+.Xil/
+
+# Bitstreams
+*.bit
+*.bin
+*.ltx
+
+# Temporary
+*.tmp
+*.bak

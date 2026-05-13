@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+Note: sample_out = -3697
+Time: 200305 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -3697
+Time: 400305 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -3697
+Time: 600305 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -3697
+Time: 800305 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -32768
+Time: 1200605 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -32768
+Time: 1400605 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -32768
+Time: 1600605 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Note: sample_out = -32768
+Time: 1800605 ns  Iteration: 0  Process: /tb_wave_select/line__143  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+Failure: Simulation finished
+Time: 2001600 ns  Iteration: 0  Process: /tb_wave_select/line__94  File: C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd
+$finish called at time : 2001600 ns : File "C:/FPGA/UART_FIR/UART_FIR/UART_FIR.srcs/sim_1/new/tb.vhd" Line 139
