@@ -149,7 +149,7 @@ begin
                 y_out <= resize(shift_right(adder(N_TAPS-1), 15), SAMPLE_WIDTH);
 
                 -- NOTE: currently always '1' (no pipeline alignment with x_valid)
-                -- In a real design, this should be delayed version of x_valid
+        
                 y_valid <= '1';
             end if;
         end if;
